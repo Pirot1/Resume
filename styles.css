@@ -1,3 +1,38 @@
-.body{
-    color:red;
+.text{
+    align-items: flex-start;
+}
+.main{
+    justify-content: left;
+}
+body{
+    background-color: grey;
+}
+.btn{
+    position: absolute;
+    right: 15%;
+    width: 20%;
+    height: 5%;
+    background: #fa8a0ac0;
+    border: none;
+    border-radius: 44px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    padding: 5%;
+}
+.information{
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 15%;
+    top: 8%;
 }
