@@ -1,0 +1,126 @@
+.text{
+    align-items: flex-start;
+}
+.main{
+    justify-content: center;
+    display: block;/*block/none*/
+}
+.header{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    display: none;/*flex/none*/
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+body{
+    background-color: grey;
+}
+.btn,.btn1{
+    position: absolute;
+    right: 15%;
+    width: 20%;
+    height: 5%;
+    background: #fa8a0ac0;
+    border: none;
+    border-radius: 44px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+.btn:hover,.btn1:hover{
+    position: absolute;
+    right: 15%;
+    width: 20%;
+    height: 5%;
+    background: #de7a07c9;
+    border: none;
+    border-radius: 44px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    box-shadow: #7f4707c9;
+}
+.img{
+    width: 40px;
+    height: 40px;
+    padding: 5%;
+}
+.information{
+    justify-content: space-between;
+    align-items: center;
+    position: absolute;
+    right: 15%;
+    top: 8%;
+}
+.circle {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin: 5px;
+}
+
+.circle1 {
+    background: #4285F4;
+    border: 3px solid #F4B400;
+    animation-name: animate1;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+
+}
+
+.circle2 {
+    background: #DB4437;
+    border: 3px solid #F4B400;
+    animation-name: animate2;
+    animation-duration: 1.5s;
+    animation-timing-function: ease-out;
+    animation-iteration-count: infinite;
+}
+
+@keyframes animate1 {
+   0%{
+       transform: none
+   } 
+   25%{
+       transform: translate(60px,60px);
+   }
+   50%{
+       transform: translateX(60px);
+   }
+   75%{
+       transform: translateY(60px);
+   }
+}
+@keyframes animate2 {
+   0%{
+       transform: none
+   } 
+   25%{
+       transform: translate(-60px,-60px);
+   }
+   50%{
+       transform: translateX(-60px);
+   }
+   75%{
+       transform: translateY(-60px);
+   }
+}
+.row {
+    display: flex;
+    justify-content: center;
+
+}

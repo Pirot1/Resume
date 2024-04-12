@@ -1,0 +1,47 @@
+body{
+    background-color: rgb(215, 209, 209);
+}
+.main-text{
+    font-weight: 400;
+    position: absolute;
+    right: 1%;
+}
+.container{
+    justify-content: space-between;
+    display: block;
+}
+.btn{
+    position: absolute;
+    right: 15%;
+    width: 20%;
+    height: 5%;
+    background: #fa8a0ac0;
+    border: none;
+    border-radius: 44px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+}
+.btn:hover{
+    position: absolute;
+    right: 15%;
+    width: 20%;
+    height: 5%;
+    background: #de7a07c9;
+    border: none;
+    border-radius: 44px;
+    color: #FFFFFF;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 18px;
+    letter-spacing: 1.96px;
+    text-transform: uppercase;
+    box-shadow: #7f4707c9;
+}
